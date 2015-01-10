@@ -8,7 +8,7 @@ sedentary and reminds the person to stand up after a predetermined duration. [Wa
 * `firmware/` contains the Arduino sketch that reads data from a Force-Sensing Resistor (FSR), computes the status (user sitting or standing), and transmits that status using an HC-06 Bluetooth module to an Android phone.
 * `app/` contains the Android app-related code and resources. Currently polls the Bluetooth device for the status and warns the user after 30 seconds.
 
-System requirements:
+##### System requirements
 
 * [Arduino Uno R3](http://arduino.cc/en/Main/arduinoBoardUno)
 * [JY-MCU HC-06 Bluetooth module](http://www.amazon.com/KEDSUM%C2%AE-Arduino-Wireless-Bluetooth-Transceiver/dp/B0093XAV4U/)
@@ -19,5 +19,10 @@ System requirements:
 * LED and 330 ohm resistor (optional)
 * Computer with [Fritzing](http://fritzing.org/) to view the schematic, [Arduino IDE](http://arduino.cc/en/Main/Software) and [Android Studio](http://developer.android.com/sdk/index.html)
 * Android phone
+
+##### Notes
+
+* The force sensitivity threshold in the Arduino sketch may need to be modified based on the calibration of the FSR that is used.
+* StandUp is an abandoned prototype and will not be developed further.
 
 Created by Jayanth Chennamangalam based on the original idea by Kurian Jacob
