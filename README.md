@@ -2,7 +2,7 @@
 ## README
 
 StandUp is a smart device that monitors the amount of time a person is
-sedentary and reminds the person to stand up after a predetermined duration.
+sedentary and reminds the person to stand up after a predetermined duration. [Watch StandUp in action!](https://www.youtube.com/watch?v=0p9jelNucXs)
 
 * `schematic/` contains a Fritzing schematic of the hardware connections.
 * `firmware/` contains the Arduino sketch that reads data from a Force-Sensing Resistor (FSR), computes the status (user sitting or standing), and transmits that status using an HC-06 Bluetooth module to an Android phone.
